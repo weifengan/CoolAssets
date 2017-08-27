@@ -1,0 +1,60 @@
+[ 2017-08-27T07:40:14+08:00 ] 127.0.0.1 /web/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011792s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009406s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009647s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098286s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.117434s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.127852s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.139397s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.148378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.042920s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.160432s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005873s ]
+
+[ 2017-08-27T08:38:28+08:00 ] 127.0.0.1 /web/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001445s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017103s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019027s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019514s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019999s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001699s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-08-27T08:38:30+08:00 ] 127.0.0.1 /web/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.000874s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013571s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015375s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015685s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001343s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016446s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000590s ]
+

@@ -1,0 +1,309 @@
+ <include file="Common:header" />
+ <div class="container" style="padding-left: 30px; padding-right: 30px;">
+ 	<div class="row">
+ 		<form method="get" action="./?m=Search&a=search">
+ 		  <div class="input-group col-md-12" style="padding-top: 20px;">  
+       		<input type="text" class="form-control" id="key" name="key" placeholder="请输入您要搜索的内容" value="{$key}" style="height: 40px; border:1px solid #1B6D85;" / >  
+            <input id="m" name="m" value="Search" hidden/>
+			<input id="a" name="a" value="search" hidden/>
+            <span class="input-group-btn">  
+               <button class="btn btn-primary btn-search" type="submit" style="width:80px;height: 40px; ">搜索</button>  
+            </span>  
+ 		  </div>
+ 		  </form>
+ 	</div>
+ </div>
+ 	<!--类别-->
+		<div class="container" style="padding-top: 20px;">	 
+				<ul id="myTab" class="nav nav-tabs">
+							<li class="active">
+								<a href="#lastest" data-toggle="tab" style="color:#000000;">
+									 综合(10)
+								</a>
+							</li>
+							<li ><a href="#hot" data-toggle="tab" style="color:#000000;">模型(5)</a></li>
+							<li ><a href="#hotdownload" data-toggle="tab" style="color:#000000;">界面(5)</a></li>
+							
+						</ul>
+						
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade in active" id="lastest">
+					
+								<div class="row" style="padding-top: 10px;">
+								 
+								  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3" >
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+					 
+								  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+					 
+								   <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+						</div>
+						
+						<!-- 分页--->
+				<div>
+					<nav aria-label="Page navigation " class="text-center">
+							  <ul class="pagination">
+							    <li>
+							      <a href="#" aria-label="Previous">
+							        <span aria-hidden="true">&laquo;</span>
+							      </a>
+							    </li>
+							    <li><a href="#">1</a></li>
+							    <li><a href="#">2</a></li>
+							    <li><a href="#">3</a></li>
+							    <li><a href="#">4</a></li>
+							    <li><a href="#">5</a></li>
+							    <li>
+							      <a href="#" aria-label="Next">
+							        <span aria-hidden="true">&raquo;</span>
+							      </a>
+							    </li>
+							  </ul>
+					</nav>
+				</div> 
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="tab-pane fade" id="hot">
+						
+							<div class="row" style="padding-top: 10px;">
+								 
+								  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3" >
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+					 
+								  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+					 
+								   <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+						 </div>
+						 
+						 
+						 <!-- 分页--->
+				<div>
+					
+					
+					<nav aria-label="Page navigation " class="text-center">
+							  <ul class="pagination">
+							    <li>
+							      <a href="#" aria-label="Previous">
+							        <span aria-hidden="true">&laquo;</span>
+							      </a>
+							    </li>
+							    <li><a href="#">1</a></li>
+							    <li><a href="#">2</a></li>
+							    <li><a href="#">3</a></li>
+							    <li><a href="#">4</a></li>
+							    <li><a href="#">5</a></li>
+							    <li>
+							      <a href="#" aria-label="Next">
+							        <span aria-hidden="true">&raquo;</span>
+							      </a>
+							    </li>
+							  </ul>
+					</nav>
+				</div> 
+						 
+						 
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="tab-pane fade" id="hotdownload">
+						
+							<div class="row" style="padding-top: 10px;">
+								 
+								  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3" >
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+					 
+								  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+					 
+								   <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+			  
+			  
+			 						 <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3" >
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+						
+						
+									<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3" >
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>		
+								  
+								  
+								  
+								  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3" >
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+								  
+								  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3" >
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+								  
+								  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3" >
+								    <div class="thumbnail">
+								      <img src="./Public/img/noimg.png" alt="...">
+								      <div class="caption">
+								        <h3>Thumbnail label</h3>
+								        <p>...</p>
+								        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+								      </div>
+								    </div>
+								  </div>
+						
+								</div>
+						
+						
+						<!-- 分页--->
+				<div>
+					
+					
+					<nav aria-label="Page navigation " class="text-center">
+							  <ul class="pagination">
+							    <li>
+							      <a href="#" aria-label="Previous">
+							        <span aria-hidden="true">&laquo;</span>
+							      </a>
+							    </li>
+							    <li><a href="#">1</a></li>
+							    <li><a href="#">2</a></li>
+							    <li><a href="#">3</a></li>
+							    <li><a href="#">4</a></li>
+							    <li><a href="#">5</a></li>
+							    <li>
+							      <a href="#" aria-label="Next">
+							        <span aria-hidden="true">&raquo;</span>
+							      </a>
+							    </li>
+							  </ul>
+					</nav>
+				</div> 
+					</div>
+				</div>
+				
+				
+		</div>
+ 	
+ 	
+ 	
+ </div>
+ 
+ 
+
+ <include file="Common:footer" />
